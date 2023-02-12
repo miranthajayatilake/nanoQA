@@ -9,7 +9,7 @@
 
 nanoQA builds a question-answering application on your own data using the power of Large Language Models (LLMs).
 
-**Please refer to this blog post for a comprehensive guide** :heavy_exclamation_mark:
+**Please refer to this blog post for a comprehensive guide** :heavy_exclamation_mark: [LINK]()
 
 Demo
 
