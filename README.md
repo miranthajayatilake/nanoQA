@@ -15,6 +15,9 @@ nanoQA builds a question-answering application on your own data using the power 
 
 <img src="./utils/demo.gif">
 
+---
+<br/>
+
 ## Quick start
 
 - Create a virtual environment with python (Tested with `python 3.10.9` on [Anaconda](https://www.anaconda.com/))
