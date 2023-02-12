@@ -14,7 +14,6 @@ from PIL import Image
 image = Image.open('utils/logo.jpg')
 
 st.image(image, width=250)
-# st.title("NanoQA")
 st.subheader("Chat with your data")
 st.write('---')
 
@@ -54,12 +53,9 @@ pipe = FAQPipeline(retriever=retriever)
 question = st.text_input('Ask a question', 'Does warm weather stop the spreading of the virus?')
 
 if st.button("Ask"):
-    # Infering 
     prediction = pipe.run(query=question, params={"Retriever": {"top_k": 3}})
-    # print_answers(prediction, details="medium")
 
     if prediction['answers'][0].score >= 0.7:
-        # print(prediction['answers'])
         text = str(prediction['answers'][0].answer)
         source = '\n\n**Extracted source - ' + str(prediction['answers'][0].meta['source'] + '**')
         link = '\n' + str(prediction['answers'][0].meta['link'])
