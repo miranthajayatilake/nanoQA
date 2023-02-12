@@ -26,4 +26,4 @@ prescribed by the project. In the absence of such guidelines, mimic the styles
 and patterns in the existing code-base.
 
 ## Support
-For any inquiring regarding kudle, please email to mj.jayathilaka@gmail.com
+Join the [DISCORD](https://discord.gg/UgeAukFB)
