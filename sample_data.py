@@ -36,7 +36,6 @@ def index_data(doc_dir, s3_url, index_name):
     # Minimal cleaning
     df.fillna(value="", inplace=True)
     df["question"] = df["question"].apply(lambda x: x.strip())
-    # print(df.head())
 
     # Get embeddings for our questions from the FAQs
     questions = list(df["question"].values)
